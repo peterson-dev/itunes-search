@@ -1,0 +1,27 @@
+.play {
+    text-align: center;
+    margin: 40px;
+}
+#results {
+    display: flex;
+    margin: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.track {
+    width: 10%;
+    padding: 20px;
+    min-width: 180px;
+    text-align: center;
+}
+.track img {
+    width: 100%;
+    text-align: center;
+}
+.track p {
+    margin-bottom: 0;
+}
+.track h2 {
+    margin-top: 0;
+}

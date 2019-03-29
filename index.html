@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>iTunes Search</title>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="sans-serif">
+    <main class="min-vh-100 bg-blue white pa4 tc">
+        <div id="search-form">
+            <h1>iTunes Search API</h1>
+            <input id="search-bar" type="text" placeholder="Search iTunes">
+        </div>
+
+        <div class="play">
+            <audio controls src="https://audio-ssl.itunes.apple.com/apple-assets-us-std-000001/AudioPreview128/v4/95/b4/ef/95b4efc9-78cb-1dd1-efec-b035388cc6fd/mzaf_1057344860430019591.plus.aac.p.m4a">
+            Your browser does not support the
+            <code>audio</code> element.
+            </audio>
+        </div>
+
+        <div id="results">
+        </div>
+    </main>
+
+</body>
+</html>
