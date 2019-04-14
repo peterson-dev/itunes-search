@@ -1,11 +1,25 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
+}
+
+button {
+    background-color: rgb(41, 38, 38);
+    color: white;
+    border: white solid 1px;
+    font-size: 16px;
+    padding: 6px;
+    cursor: pointer;
+    opacity: 0.4;
+}
+button:hover{
+    opacity: 0.7;
 }
 
 input[type=text]{
     width: 280px;
+    opacity: 0.9;
 }
 
 input#search-bar {
@@ -50,9 +64,11 @@ h1{
 
 .play {
     text-align: center;
-    margin: 40px;
+    margin: 30px;
+    opacity: .6;
+    height: 38px;
 }
-#results {
+.results {
     display: flex;
     margin: 50px;
     flex-wrap: wrap;
@@ -65,9 +81,14 @@ h1{
     min-width: 180px;
     text-align: center;
 }
+
+
 .track img {
     width: 100%;
     text-align: center;
+    /* border-radius: 8px; */
+    box-shadow: 0 8px 6px -6px black;
+    
 }
 .track p {
     margin-bottom: 0;
@@ -77,7 +98,8 @@ h1{
 }
 
 #particles-js {
+    background: black;
     /* background-image: url('cropped-starglobe-maya-render.jpg'); */
-    background-image: url('adelin-preda-183822-unsplash.jpg');
-    height: 200vh;
+    background-image: url('aperture-vintage-212345-unsplash.jpg');
+    height: 300vh;
 }

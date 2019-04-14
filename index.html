@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>iTunes Search</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
     <script src="script.js" defer></script>
 </head>
 
@@ -16,8 +17,9 @@
             
            
                 <h1>iTunes Search API</h1>
-                <div id="search-container">
+                <div class="search">
                 <input id="search-bar" type="text" placeholder="Search iTunes..">
+                <button type="Submit">Go</button>
                 </div>
 
             <div class="play">
@@ -26,14 +28,15 @@
                 <code>audio</code> element.
                 </audio>
             </div>
-
-            <div id="results">
+        
+            <div class="results">
             </div>
-            
         </div>
+        
     </div>
 
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>   
+    <!-- <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>    -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>   
     <script>
         particlesJS.load("particles-js", "particles.json", 
         function(){
