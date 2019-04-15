@@ -2,7 +2,8 @@
 
 ## Description
 
-In this app you can search for songs by hitting the iTunes API and allows a user to listen to a thirty second sample of any audio file available in the iTunes library.  
+This [app](https://thirty-second-dance-party.herokuapp.com/) uses the iTunes API and allows a user to search and listen to a thirty second sample of any audio file available in the iTunes library.
+
 
 ## Built With
 - HTML/CSS and particles.js used for the UI design
