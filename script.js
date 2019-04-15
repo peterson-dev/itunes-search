@@ -10,7 +10,7 @@ function searchSongs () {
   let queryType = $("input[name*='query']:checked")
 
   $.ajax({
-    url: `https://itunes.apple.com/`,
+    url: `https://itunes-api-proxy.glitch.me/search`,
     data: {
       term: inputContents,
       media: 'music',
