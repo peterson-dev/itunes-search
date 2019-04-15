@@ -16,6 +16,7 @@ function searchSongs () {
       media: 'music',
       entity: queryType.val()
     },
+    crossDomain: true,
     dataType: 'json'
   }).done(function (result) {
     $('.results').empty()
