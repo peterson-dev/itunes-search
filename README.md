@@ -2,12 +2,12 @@
 
 ## Description
 
-This [app](https://thirty-second-dance-party.herokuapp.com/) uses the iTunes API and allows a user to search and listen to a thirty second sample of any audio file available in the iTunes library.
+This [app](https://thirty-second-dance-party.herokuapp.com/) uses iTunes Search API and allows you to lookup and listen to thirty second samples of any audio file available in the iTunes library.
 
 
 ## Built With
-- HTML/CSS and particles.js used for the UI design
-- Javascript, JQuery used for hitting the API and serving the data 
+- HTML/CSS and particles.js for simple UI
+- GET from API, use JQuery to perform async HTTP (Ajax) request 
 
 ## Resources 
 - [API documents](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/)
