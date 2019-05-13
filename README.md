@@ -12,4 +12,4 @@ This [app](https://thirty-second-dance-party.herokuapp.com/) uses iTunes Search 
 ## Resources 
 - [API documents](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/)
 
-**NOTE**: The iTunes API can be a little flaky when it comes to returning CORS headers. These headers are necessary for Ajax to work correctly. I have replaced `https://itunes.apple.com/` in the API URL with `https://itunes-api-proxy.glitch.me/`.  Proxy credit to [Clinton Dreisbach](https://github.com/cndreisbach)
+**NOTE**: The iTunes API can be a little flaky when it comes to returning CORS headers. These headers are necessary for Ajax to work correctly. I have replaced `https://itunes.apple.com/` in the API URL with `https://itunes-api-proxy.glitch.me/`.  Proxy credit to [Clint](https://github.com/cndreisbach)
