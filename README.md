@@ -1,4 +1,4 @@
-# iTunes Search API
+# iSearch
 
 ## Description
 
