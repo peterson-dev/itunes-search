@@ -6,8 +6,8 @@ This [app](https://thirty-second-dance-party.herokuapp.com/) uses iTunes Search 
 
 
 ## Built With
-- HTML/CSS and particles.js for simple UI
-- GET from API, use JQuery to perform async HTTP (Ajax) request 
+- HTML/CSS and particles.js for UI
+- JQuery to perform async HTTP request (ajax)
 
 ## Resources 
 - [API documents](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/)
